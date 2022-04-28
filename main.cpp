@@ -11,7 +11,8 @@ int main() {
     findEachGpa(students);
     formRatingList(students);
     formScShipOwners(students);
-    writeToCsv(students);
+    float lowerBound = getLowerBound(students);
+    writeToCsv(students, lowerBound);
     return 0;
 }
 
