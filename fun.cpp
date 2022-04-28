@@ -58,7 +58,9 @@ void findEachGpa(vector<Student>& students){
 void formRatingList(vector<Student>& students){
     sort(students.begin(), students.end(), gpaCompare);
 };
-bool gpaCompare(const Student &a, const Student &b)
-{
+bool gpaCompare(const Student &a, const Student &b){
     return a.gpa > b.gpa;
+}
+bool formScShipOwners(vector <Student>& students){
+    students.erase(students.begin() + int(float(students.size()) * 0.4), students.end());
 }

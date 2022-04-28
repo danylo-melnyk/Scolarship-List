@@ -10,6 +10,7 @@ int main() {
     removePaying(students);
     findEachGpa(students);
     formRatingList(students);
+    formScShipOwners(students);
     return 0;
 }
 
