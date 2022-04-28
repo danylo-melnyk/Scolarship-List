@@ -55,3 +55,10 @@ void findEachGpa(vector<Student>& students){
         stud.gpa = countGpa(stud.marks);
     }
 }
+void formRatingList(vector<Student>& students){
+    sort(students.begin(), students.end(), gpaCompare);
+};
+bool gpaCompare(const Student &a, const Student &b)
+{
+    return a.gpa > b.gpa;
+}

@@ -9,6 +9,7 @@ int main() {
     listStudents(files, students);
     removePaying(students);
     findEachGpa(students);
+    formRatingList(students);
     return 0;
 }
 

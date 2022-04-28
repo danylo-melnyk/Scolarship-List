@@ -17,3 +17,5 @@ void listCsv(const path&, vector<path>&);
 void listStudents(const vector<path>&, vector<Student>&);
 void removePaying(vector<Student>&);
 void findEachGpa(vector<Student>&);
+void formRatingList(vector<Student>&);
+bool gpaCompare(const Student &, const Student &);
