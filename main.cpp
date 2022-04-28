@@ -2,7 +2,9 @@
 
 
 int main() {
-    path dir_path = input_path();
+    path dirPath = inputPath();
+    vector<path> files;
+    listCsv(dirPath, files);
     return 0;
 }
 

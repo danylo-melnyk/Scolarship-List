@@ -1,18 +1,21 @@
 #include "fun.h"
 
-path input_path(){
-    path dir_path;
+path inputPath(){
+    path dirPath;
     do{
         cout << "Введіть повний шлях до директорії: ";
-        cin >> dir_path;
-    } while (!(dir_exists(dir_path)));
-    return dir_path;
+        cin >> dirPath;
+    } while (!(dirExists(dirPath)));
+    return dirPath;
 }
-bool dir_exists(const path& p)
-{
+bool dirExists(const path& p){
     if(exists(p))
         return true;
     cout << p << " не є директорією\n";
     return false;
+}
+void listCsv(const path& dir_path, vector<path>& csvFiles){
+    for (const path& filePath : directory_iterator(dir_path))
+        if (filePath.extension() == ".csv") csvFiles.push_back(filePath);
 }
 

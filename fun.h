@@ -1,10 +1,12 @@
 #include <iostream>
 #include <filesystem>
 #include "student.h"
+#include <vector>
 
 using namespace std;
 namespace fs = filesystem;
 using namespace fs;
 
-bool dir_exists(const path&);
-path input_path();
+path inputPath();
+bool dirExists(const path&);
+void listCsv(const path&, vector<path>&);
