@@ -7,6 +7,7 @@ int main() {
     listCsv(dirPath, files);
     vector<Student> students;
     listStudents(files, students);
+    removePaying(students);
     return 0;
 }
 

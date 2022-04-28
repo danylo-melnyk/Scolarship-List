@@ -43,3 +43,10 @@ void listStudents(const vector<path>& files, vector<Student>& students){
         inFile.close();
     }
 }
+void removePaying(vector<Student>& students){
+    vector<Student>::iterator studIt;
+    for (studIt = students.begin(); studIt != students.end();){
+        if (studIt->paying) students.erase(studIt);
+        else studIt++;
+    }
+}

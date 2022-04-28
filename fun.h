@@ -14,3 +14,4 @@ path inputPath();
 bool dirExists(const path&);
 void listCsv(const path&, vector<path>&);
 void listStudents(const vector<path>&, vector<Student>&);
+void removePaying(vector<Student>&);
