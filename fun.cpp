@@ -64,3 +64,16 @@ bool gpaCompare(const Student &a, const Student &b){
 bool formScShipOwners(vector <Student>& students){
     students.erase(students.begin() + int(float(students.size()) * 0.4), students.end());
 }
+void writeToCsv(const vector <Student>& students){
+    ofstream outFile;
+    outFile.open("ScholarShip.csv");
+    if(!outFile){
+        cout << "Помилка при відкритті файлу \n";
+        return;
+    }
+    for (const Student stud: students){
+        outFile << stud.surname << "," << stud.gpa << "\n";
+    }
+    outFile.close();
+}
+

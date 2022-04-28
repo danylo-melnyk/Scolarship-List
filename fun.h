@@ -20,4 +20,5 @@ void findEachGpa(vector<Student>&);
 void formRatingList(vector<Student>&);
 bool gpaCompare(const Student &, const Student &);
 bool formScShipOwners(vector <Student>&);
+void writeToCsv(const vector <Student>&);
 

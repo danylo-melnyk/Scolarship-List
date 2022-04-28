@@ -11,6 +11,7 @@ int main() {
     findEachGpa(students);
     formRatingList(students);
     formScShipOwners(students);
+    writeToCsv(students);
     return 0;
 }
 
