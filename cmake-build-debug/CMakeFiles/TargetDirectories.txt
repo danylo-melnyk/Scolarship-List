@@ -1,0 +1,3 @@
+/home/neil/Git/StudentRating/cmake-build-debug/CMakeFiles/StudentRating.dir
+/home/neil/Git/StudentRating/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/neil/Git/StudentRating/cmake-build-debug/CMakeFiles/rebuild_cache.dir
