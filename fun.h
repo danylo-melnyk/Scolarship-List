@@ -1,5 +1,6 @@
 #include <iostream>
 #include <filesystem>
+#include "student.h"
 
 using namespace std;
 namespace fs = filesystem;

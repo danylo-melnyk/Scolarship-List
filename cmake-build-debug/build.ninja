@@ -61,6 +61,12 @@ build CMakeFiles/StudentRating.dir/fun.cpp.o: CXX_COMPILER__StudentRating_Debug 
   OBJECT_DIR = CMakeFiles/StudentRating.dir
   OBJECT_FILE_DIR = CMakeFiles/StudentRating.dir
 
+build CMakeFiles/StudentRating.dir/student.cpp.o: CXX_COMPILER__StudentRating_Debug /home/neil/Git/StudentRating/student.cpp || cmake_object_order_depends_target_StudentRating
+  DEP_FILE = CMakeFiles/StudentRating.dir/student.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles/StudentRating.dir
+  OBJECT_FILE_DIR = CMakeFiles/StudentRating.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target StudentRating
@@ -69,7 +75,7 @@ build CMakeFiles/StudentRating.dir/fun.cpp.o: CXX_COMPILER__StudentRating_Debug 
 #############################################
 # Link the executable StudentRating
 
-build StudentRating: CXX_EXECUTABLE_LINKER__StudentRating_Debug CMakeFiles/StudentRating.dir/main.cpp.o CMakeFiles/StudentRating.dir/fun.cpp.o
+build StudentRating: CXX_EXECUTABLE_LINKER__StudentRating_Debug CMakeFiles/StudentRating.dir/main.cpp.o CMakeFiles/StudentRating.dir/fun.cpp.o CMakeFiles/StudentRating.dir/student.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/StudentRating.dir
   POST_BUILD = :
