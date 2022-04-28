@@ -50,3 +50,8 @@ void removePaying(vector<Student>& students){
         else studIt++;
     }
 }
+void findEachGpa(vector<Student>& students){
+    for (Student& stud: students){
+        stud.gpa = countGpa(stud.marks);
+    }
+}

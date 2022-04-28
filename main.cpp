@@ -8,6 +8,7 @@ int main() {
     vector<Student> students;
     listStudents(files, students);
     removePaying(students);
+    findEachGpa(students);
     return 0;
 }
 
