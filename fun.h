@@ -5,7 +5,6 @@
 #include <filesystem>
 #include "student.h"
 #include <vector>
-#include <bits/stdc++.h>
 
 using namespace std;
 namespace fs = filesystem;

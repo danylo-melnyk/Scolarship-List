@@ -3,4 +3,4 @@ project(StudentRating)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(StudentRating main.cpp fun.cpp fun.h student.cpp student.h)
+add_executable(Scolarship-List main.cpp fun.cpp fun.h student.cpp student.h)

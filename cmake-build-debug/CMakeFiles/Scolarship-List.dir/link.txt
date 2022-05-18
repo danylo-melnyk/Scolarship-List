@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Scolarship-List.dir/main.cpp.o CMakeFiles/Scolarship-List.dir/fun.cpp.o CMakeFiles/Scolarship-List.dir/student.cpp.o -o Scolarship-List 

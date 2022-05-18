@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "StudentRating"
+			"path" : "Scolarship-List"
 		}
 	],
 	"backtrace" : 1,
@@ -58,7 +58,7 @@
 			]
 		}
 	],
-	"id" : "StudentRating::@6890427a1f51a3e7e1df",
+	"id" : "Scolarship-List::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -74,8 +74,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "StudentRating",
-	"nameOnDisk" : "StudentRating",
+	"name" : "Scolarship-List",
+	"nameOnDisk" : "Scolarship-List",
 	"paths" : 
 	{
 		"build" : ".",
